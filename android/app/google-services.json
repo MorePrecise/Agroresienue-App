@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "632267989272",
+    "project_id": "agroresienue",
+    "storage_bucket": "agroresienue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632267989272:android:d24aedbbd52682ca0abe6d",
+        "android_client_info": {
+          "package_name": "com.spacelotsgroup.agroresienue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632267989272-jtn5bktd3cd64m4sv5p4n1q1727b0nud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spacelotsgroup.agroresienue",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "632267989272-5pg39qm2536491dj7q4uuiunpahd43fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhjo7d150idrqqbGtbf0cS5ZgEOonJqyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632267989272-5pg39qm2536491dj7q4uuiunpahd43fj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "632267989272-q7i3l060m8s8ur1b26g7f28l5u5qtke9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.spacelotsgroup.agroresienue"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
