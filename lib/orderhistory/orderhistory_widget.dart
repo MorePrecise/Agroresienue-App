@@ -126,7 +126,7 @@ class _OrderhistoryWidgetState extends State<OrderhistoryWidget> {
                                 ClipRRect(
                                   borderRadius: BorderRadius.circular(6.0),
                                   child: Image.asset(
-                                    'assets/images/air-max-270-mens-shoes-KkLcGR.png',
+                                    'assets/images/soybeanRes.jfif',
                                     width: 80.0,
                                     height: 80.0,
                                     fit: BoxFit.cover,
@@ -199,7 +199,7 @@ class _OrderhistoryWidgetState extends State<OrderhistoryWidget> {
                                 ClipRRect(
                                   borderRadius: BorderRadius.circular(6.0),
                                   child: Image.asset(
-                                    'assets/images/air-max-90-mens-shoes-6n3vKB.png',
+                                    'assets/images/Pellets_sunflower_cake.jfif',
                                     width: 80.0,
                                     height: 80.0,
                                     fit: BoxFit.cover,
@@ -293,7 +293,7 @@ class _OrderhistoryWidgetState extends State<OrderhistoryWidget> {
                                 ClipRRect(
                                   borderRadius: BorderRadius.circular(6.0),
                                   child: Image.asset(
-                                    'assets/images/air-force-1-07-mens-shoes-L3SMQl.png',
+                                    'assets/images/compostable.jfif',
                                     width: 80.0,
                                     height: 80.0,
                                     fit: BoxFit.cover,
@@ -366,7 +366,7 @@ class _OrderhistoryWidgetState extends State<OrderhistoryWidget> {
                                 ClipRRect(
                                   borderRadius: BorderRadius.circular(6.0),
                                   child: Image.asset(
-                                    'assets/images/lebron-19-basketball-shoes-VkqHgW.png',
+                                    'assets/images/jute.jfif',
                                     width: 80.0,
                                     height: 80.0,
                                     fit: BoxFit.cover,

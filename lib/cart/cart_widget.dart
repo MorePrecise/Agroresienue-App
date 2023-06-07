@@ -100,7 +100,7 @@ class _CartWidgetState extends State<CartWidget> {
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(8.0),
                             child: Image.asset(
-                              'assets/images/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
+                              'assets/images/Pellets_sunflower_cake.jfif',
                               width: MediaQuery.of(context).size.width * 0.9,
                               height: 220.0,
                               fit: BoxFit.cover,

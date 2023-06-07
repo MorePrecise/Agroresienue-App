@@ -109,7 +109,7 @@ class _Cart1WidgetState extends State<Cart1Widget> {
                                           mainAxisSize: MainAxisSize.min,
                                           children: [
                                             Image.asset(
-                                              'assets/images/489px-Banana.png?20070731033015',
+                                              'assets/images/maizecob.jfif',
                                               width: 120.0,
                                               height: 100.0,
                                               fit: BoxFit.contain,
@@ -369,7 +369,7 @@ class _Cart1WidgetState extends State<Cart1Widget> {
                                           mainAxisSize: MainAxisSize.min,
                                           children: [
                                             Image.asset(
-                                              'assets/images/489px-Banana.png?20070731033015',
+                                              'assets/images/Hempcrete_aggregate_material.jfif',
                                               width: 120.0,
                                               height: 100.0,
                                               fit: BoxFit.contain,
@@ -629,7 +629,7 @@ class _Cart1WidgetState extends State<Cart1Widget> {
                                           mainAxisSize: MainAxisSize.min,
                                           children: [
                                             Image.asset(
-                                              'assets/images/489px-Banana.png?20070731033015',
+                                              'assets/images/compostable.jfif',
                                               width: 120.0,
                                               height: 100.0,
                                               fit: BoxFit.contain,
@@ -889,7 +889,7 @@ class _Cart1WidgetState extends State<Cart1Widget> {
                                           mainAxisSize: MainAxisSize.min,
                                           children: [
                                             Image.asset(
-                                              'assets/images/489px-Banana.png?20070731033015',
+                                              'assets/images/Pellets_sunflower_cake.jfif',
                                               width: 120.0,
                                               height: 100.0,
                                               fit: BoxFit.contain,

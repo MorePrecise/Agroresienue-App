@@ -518,7 +518,7 @@ class _ProductWidgetState extends State<ProductWidget>
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(12.0),
                                   child: Image.asset(
-                                    'assets/images/zion-1-basketball-shoes-bJ0hLJ.png',
+                                    'assets/images/Pellets_sunflower_cake.jfif',
                                     width: 120.0,
                                     height: 100.0,
                                     fit: BoxFit.cover,
@@ -621,7 +621,7 @@ class _ProductWidgetState extends State<ProductWidget>
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(12.0),
                                   child: Image.asset(
-                                    'assets/images/air-jordan-xxxvi-basketball-shoes-1D0pp7.png',
+                                    'assets/images/Pellets_sunflower_cake.jfif',
                                     width: 120.0,
                                     height: 100.0,
                                     fit: BoxFit.cover,
@@ -724,7 +724,7 @@ class _ProductWidgetState extends State<ProductWidget>
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(12.0),
                                   child: Image.asset(
-                                    'assets/images/lebron-witness-6-basketball-shoes-HXbMw7.png',
+                                    'assets/images/Pellets_sunflower_cake.jfif',
                                     width: 120.0,
                                     height: 100.0,
                                     fit: BoxFit.cover,
@@ -827,7 +827,7 @@ class _ProductWidgetState extends State<ProductWidget>
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(12.0),
                                   child: Image.asset(
-                                    'assets/images/lebron-19-low-basketball-shoes-8HVgF8.png',
+                                    'assets/images/Pellets_sunflower_cake.jfif',
                                     width: 120.0,
                                     height: 100.0,
                                     fit: BoxFit.cover,
@@ -930,7 +930,7 @@ class _ProductWidgetState extends State<ProductWidget>
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(12.0),
                                   child: Image.asset(
-                                    'assets/images/jordan-5-why-not-mens-basketball-shoes-pJNKMq.png',
+                                    'assets/images/Pellets_sunflower_cake.jfif',
                                     width: 120.0,
                                     height: 100.0,
                                     fit: BoxFit.cover,
