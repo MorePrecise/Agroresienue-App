@@ -5,7 +5,7 @@
 
 
     <application
-        android:label="Agroresienue"
+        android:label="AgroResiEnue"
         tools:replace="android:label"
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true">

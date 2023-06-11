@@ -5,8 +5,8 @@ import '../base_auth_user_provider.dart';
 
 export '../base_auth_user_provider.dart';
 
-class AgroresienueFirebaseUser extends BaseAuthUser {
-  AgroresienueFirebaseUser(this.user);
+class AgroResiEnueFirebaseUser extends BaseAuthUser {
+  AgroResiEnueFirebaseUser(this.user);
   User? user;
   bool get loggedIn => user != null;
 
@@ -40,17 +40,17 @@ class AgroresienueFirebaseUser extends BaseAuthUser {
   static BaseAuthUser fromUserCredential(UserCredential userCredential) =>
       fromFirebaseUser(userCredential.user);
   static BaseAuthUser fromFirebaseUser(User? user) =>
-      AgroresienueFirebaseUser(user);
+      AgroResiEnueFirebaseUser(user);
 }
 
-Stream<BaseAuthUser> agroresienueFirebaseUserStream() => FirebaseAuth.instance
+Stream<BaseAuthUser> agroResiEnueFirebaseUserStream() => FirebaseAuth.instance
         .authStateChanges()
         .debounce((user) => user == null && !loggedIn
             ? TimerStream(true, const Duration(seconds: 1))
             : Stream.value(user))
         .map<BaseAuthUser>(
       (user) {
-        currentUser = AgroresienueFirebaseUser(user);
+        currentUser = AgroResiEnueFirebaseUser(user);
         return currentUser!;
       },
     );

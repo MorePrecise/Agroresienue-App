@@ -12,6 +12,7 @@ import 'package:provider/provider.dart';
 class PaymentmethodModel extends FlutterFlowModel {
   ///  State fields for stateful widgets in this page.
 
+  final unfocusNode = FocusNode();
   // State field(s) for CheckboxListTile widget.
   bool? checkboxListTileValue1;
   // State field(s) for TextField widget.
@@ -30,8 +31,11 @@ class PaymentmethodModel extends FlutterFlowModel {
   void initState(BuildContext context) {}
 
   void dispose() {
+    unfocusNode.dispose();
     textController?.dispose();
   }
+
+  /// Action blocks are added here.
 
   /// Additional helper methods are added here.
 

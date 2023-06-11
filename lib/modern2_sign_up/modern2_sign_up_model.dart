@@ -31,6 +31,8 @@ class Modern2SignUpModel extends FlutterFlowModel {
     passwordTextController?.dispose();
   }
 
+  /// Action blocks are added here.
+
   /// Additional helper methods are added here.
 
 }

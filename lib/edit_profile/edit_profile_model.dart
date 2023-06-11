@@ -36,6 +36,8 @@ class EditProfileModel extends FlutterFlowModel {
     customerPhonenumberController?.dispose();
   }
 
+  /// Action blocks are added here.
+
   /// Additional helper methods are added here.
 
 }

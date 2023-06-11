@@ -15,6 +15,11 @@ class HomeModel extends FlutterFlowModel {
 
   // State field(s) for PageView widget.
   PageController? pageViewController;
+  int get pageViewCurrentIndex => pageViewController != null &&
+          pageViewController!.hasClients &&
+          pageViewController!.page != null
+      ? pageViewController!.page!.round()
+      : 0;
   // State field(s) for TextField widget.
   TextEditingController? textController;
   String? Function(BuildContext, String?)? textControllerValidator;
@@ -26,6 +31,8 @@ class HomeModel extends FlutterFlowModel {
   void dispose() {
     textController?.dispose();
   }
+
+  /// Action blocks are added here.
 
   /// Additional helper methods are added here.
 

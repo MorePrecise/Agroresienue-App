@@ -12,6 +12,7 @@ import 'package:provider/provider.dart';
 class Cart1Model extends FlutterFlowModel {
   ///  State fields for stateful widgets in this page.
 
+  final unfocusNode = FocusNode();
   // State field(s) for Productdemand widget.
   int? productdemandValue1;
   // State field(s) for Productdemand widget.
@@ -27,7 +28,11 @@ class Cart1Model extends FlutterFlowModel {
 
   void initState(BuildContext context) {}
 
-  void dispose() {}
+  void dispose() {
+    unfocusNode.dispose();
+  }
+
+  /// Action blocks are added here.
 
   /// Additional helper methods are added here.
 
